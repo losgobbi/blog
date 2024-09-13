@@ -3,7 +3,7 @@ title: "Adding an arm64 syscall entry"
 date: 2023-07-27T17:53:17-03:00
 ---
 
-<img style="display: block; margin: auto;" src="/tux.webp"/>
+<img style="display: block; margin: auto;" src="/blog/tux.webp"/>
 
 For some architectures, kernel has changed the generation of some inner headers for syscall tables. Now at kernel 6.1.y (Pi fork) there are some utility scripts like *syscallnr.sh* which acts over a table file called *syscall.tbl*. Apparently, for arm64, this is not the case since we still have to add the entries manually like the old days.
 

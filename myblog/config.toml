@@ -1,8 +1,8 @@
-baseURL = "https://losgobbi.github.io/blog/myblog"
+baseURL = "https://losgobbi.github.io/blog"
 title = "losgobbi"
 languageCode = "en-us"
 theme = "devise"
-relativeURLs = true
+#relativeURLs = true
 enableEmoji = true
 googleAnalytics = ""
 enableRobotsTXT = true
@@ -25,10 +25,11 @@ copyright = "&copy; personal blog :)"
 
 # Configuration Features
 [params]
+  baseURL = "https://losgobbi.github.io/blog"
   description = "AOSP & Kernel & Android"      # Your meta description of the site
   header_title = "Rodrigo Gobbi"                 # Your header title
   header_subtitle = "Some software experiments ;)" # Your header subtitle
-  home_image = "/losgobbi.jpeg"          # Path to header image starting from the static directory (optional)
+  home_image = "losgobbi.jpeg"          # Path to header image starting from the static directory (optional)
   recent_posts = 5                           # Max amount of recent posts to show
   mainSections = ["posts", "blog"]   # Main sections to include in recent posts
   [params.style]                             # CSS style overrides
