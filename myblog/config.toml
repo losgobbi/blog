@@ -1,4 +1,4 @@
-#baseURL = "https://losgobbi.github.io/blog/"
+baseURL = "https://losgobbi.github.io/blog/myblog"
 title = "losgobbi"
 languageCode = "en-us"
 theme = "devise"
