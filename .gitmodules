@@ -1,3 +1,0 @@
-[submodule "myblog/themes/devise"]
-	path = myblog/themes/devise
-	url = https://github.com/austingebauer/devise.git
